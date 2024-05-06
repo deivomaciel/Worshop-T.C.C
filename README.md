@@ -125,3 +125,48 @@ def corrigir_brilho(imagem):
         fator_de_correcao = limiar_de_brilho - brilho
         return cv2.convertScaleAbs(imagem, alpha=limiar_de_contraste, beta=fator_de_correcao)
 ```
+
+## Código completo
+
+```python
+import cv2
+
+def ler_imagem(image_path):
+    imagem = cv2.imread(image_path)
+    return imagem
+    
+
+def exibir_imagem(imagem, titulo='Imagem'):
+    cv2.imshow(titulo, imagem)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+
+
+def salvar_imagem(nome_imagem, imagem_editada):
+    cv2.imwrite(nome_imagem, imagem_editada)
+
+
+def redimensionar_imagem(imagem, largura, altura):
+    nova_imagem = cv2.resize(imagem, (largura, altura))
+    return nova_imagem
+
+
+def aplicar_filtro(imagem):
+    imagem_cinza = cv2.cvtColor(imagem, cv2.COLOR_BGR2GRAY)
+    imagem_suavizada = cv2.GaussianBlur(imagem_cinza, (5, 5), 0)
+    return imagem_suavizada
+
+
+def corrigir_brilho(imagem):
+    image_cinza = cv2.cvtColor(imagem, cv2.COLOR_BGR2GRAY)
+    brilho = cv2.mean(image_cinza)[0]
+    limiar_de_brilho = 100
+    limiar_de_contraste = 1.5
+
+    if brilho > limiar_de_brilho:
+        return imagem
+    else:
+        fator_de_correcao = limiar_de_brilho - brilho
+        return cv2.convertScaleAbs(imagem, alpha=limiar_de_contraste, beta=fator_de_correcao)
+
+```

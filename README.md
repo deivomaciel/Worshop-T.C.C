@@ -16,11 +16,25 @@ Certifique-se de ter os seguintes requisitos instalados em sua máquina:
 ### Clone o Repositório
 
 ```bash
-git clone https://github.com/unify-hardware/unify-plus-back.git
+git clone https://github.com/deivomaciel/Worshop-T.C.C.git
 ```
 
-### Instale as Dependências
+### Instale o OpenCV
 
 ```bash
-npm install
+pip install opencv-python
 ```
+
+## Funções Disponíveis
+
+### Ler imagem
+
+### Exibir imagem
+
+### Salvar imagem
+
+### Redimensionar imagem
+
+### Aplicar filtro
+
+### Corrigir brilho

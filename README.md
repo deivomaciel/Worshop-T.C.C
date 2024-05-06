@@ -181,11 +181,18 @@ imagem_redimencionada = redimensionar_imagem(imagem, 200, 200)
 exibir_imagem(imagem_redimencionada)
 ```
 
-### Imagem original
-![porsche_cayenne](https://github.com/deivomaciel/Worshop-T.C.C/assets/31144383/74ac8008-40bc-472e-b855-12a172f75303)
-
-### Imagem redimencionada
-![redimencionada](https://github.com/deivomaciel/Worshop-T.C.C/assets/31144383/6daf2e36-ecb1-420e-9c8a-967ab9643dde)
+<table>
+  <tr style="border: none;">
+    <td>
+     <h3>Imagem original</h3>
+     <img src="https://github.com/deivomaciel/Worshop-T.C.C/assets/31144383/74ac8008-40bc-472e-b855-12a172f75303" alt="Imagem 1">
+    </td>
+    <td>
+     <h3>Imagem original</h3>
+     <img src="https://github.com/deivomaciel/Worshop-T.C.C/assets/31144383/6daf2e36-ecb1-420e-9c8a-967ab9643dde" alt="Imagem 2">
+    </td>
+  </tr>
+</table>
 
 
 ### Aplicar filtro a uma imagem
@@ -196,11 +203,18 @@ imagem_com_filtro = aplicar_filtro(imagem)
 exibir_imagem(imagem_com_filtro)
 ```
 
-### Imagem original
-![porsche_cayenne](https://github.com/deivomaciel/Worshop-T.C.C/assets/31144383/74ac8008-40bc-472e-b855-12a172f75303)
-
-### Imagem com filtro
-![com_filtro](https://github.com/deivomaciel/Worshop-T.C.C/assets/31144383/a906b621-9e2b-4907-9049-bcbd3c0b499f)
+<table>
+  <tr style="border: none;">
+    <td>
+     <h3>Imagem original</h3>
+     <img src="https://github.com/deivomaciel/Worshop-T.C.C/assets/31144383/74ac8008-40bc-472e-b855-12a172f75303" alt="Imagem 1">
+    </td>
+    <td>
+     <h3>Imagem com filtro</h3>
+     <img src="https://github.com/deivomaciel/Worshop-T.C.C/assets/31144383/a906b621-9e2b-4907-9049-bcbd3c0b499f" alt="Imagem 2">
+    </td>
+  </tr>
+</table>
 
 
 ### Corrigir brilho de uma imagem
@@ -211,9 +225,16 @@ imagem_corrigida = corrigir_brilho(imagem)
 exibir_imagem(imagem_corrigida)
 ```
 
-### Imagem original
-![porsche_cayenne](https://github.com/deivomaciel/Worshop-T.C.C/assets/31144383/74ac8008-40bc-472e-b855-12a172f75303)
-
-### Imagem com brilho corrigido
-![corrigida](https://github.com/deivomaciel/Worshop-T.C.C/assets/31144383/396f1fa5-0cc2-40c9-b6b4-56427228b3dd)
+<table>
+  <tr style="border: none;">
+    <td>
+     <h3>Imagem original</h3>
+     <img src="https://github.com/deivomaciel/Worshop-T.C.C/assets/31144383/74ac8008-40bc-472e-b855-12a172f75303" alt="Imagem 1">
+    </td>
+    <td>
+     <h3>Imagem com brilho corrigido</h3>
+     <img src="https://github.com/deivomaciel/Worshop-T.C.C/assets/31144383/396f1fa5-0cc2-40c9-b6b4-56427228b3dd" alt="Imagem 2">
+    </td>
+  </tr>
+</table>
 

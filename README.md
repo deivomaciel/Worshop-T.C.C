@@ -13,12 +13,6 @@ Certifique-se de ter os seguintes requisitos instalados em sua máquina:
 
 - [Python >= 3.12.2](https://www.python.org/) (você pode verificar a versão com `python --version`)
 
-### Clone o Repositório
-
-```bash
-git clone https://github.com/deivomaciel/Worshop-T.C.C.git
-```
-
 ### Instale o OpenCV
 
 ```bash
@@ -187,6 +181,13 @@ imagem_redimencionada = redimensionar_imagem(imagem, 200, 200)
 exibir_imagem(imagem_redimencionada)
 ```
 
+### Imagem original
+![porsche_cayenne](https://github.com/deivomaciel/Worshop-T.C.C/assets/31144383/74ac8008-40bc-472e-b855-12a172f75303)
+
+### Imagem redimencionada
+![redimencionada](https://github.com/deivomaciel/Worshop-T.C.C/assets/31144383/6daf2e36-ecb1-420e-9c8a-967ab9643dde)
+
+
 ### Aplicar filtro a uma imagem
 
 ```python
@@ -195,6 +196,13 @@ imagem_com_filtro = aplicar_filtro(imagem)
 exibir_imagem(imagem_com_filtro)
 ```
 
+### Imagem original
+![porsche_cayenne](https://github.com/deivomaciel/Worshop-T.C.C/assets/31144383/74ac8008-40bc-472e-b855-12a172f75303)
+
+### Imagem com filtro
+![com_filtro](https://github.com/deivomaciel/Worshop-T.C.C/assets/31144383/a906b621-9e2b-4907-9049-bcbd3c0b499f)
+
+
 ### Corrigir brilho de uma imagem
 
 ```python
@@ -202,4 +210,10 @@ imagem = ler_imagem('./Assets/dog.jpg')
 imagem_corrigida = corrigir_brilho(imagem)
 exibir_imagem(imagem_corrigida)
 ```
+
+### Imagem original
+![porsche_cayenne](https://github.com/deivomaciel/Worshop-T.C.C/assets/31144383/74ac8008-40bc-472e-b855-12a172f75303)
+
+### Imagem com brilho corrigido
+![corrigida](https://github.com/deivomaciel/Worshop-T.C.C/assets/31144383/396f1fa5-0cc2-40c9-b6b4-56427228b3dd)
 

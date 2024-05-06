@@ -170,3 +170,36 @@ def corrigir_brilho(imagem):
         return cv2.convertScaleAbs(imagem, alpha=limiar_de_contraste, beta=fator_de_correcao)
 
 ```
+
+## Exemplos de uso
+
+### Exibir uma imagem
+
+```python
+imagem = ler_imagem('./Assets/dog.jpg')
+exibir_imagem(imagem)
+```
+
+### Redimencionar uma imagem 
+```python
+imagem = ler_imagem('./Assets/dog.jpg')
+imagem_redimencionada = redimensionar_imagem(imagem, 200, 200)
+exibir_imagem(imagem_redimencionada)
+```
+
+### Aplicar filtro a uma imagem
+
+```python
+imagem = ler_imagem('./Assets/dog.jpg')
+imagem_com_filtro = aplicar_filtro(imagem)
+exibir_imagem(imagem_com_filtro)
+```
+
+### Corrigir brilho de uma imagem
+
+```python
+imagem = ler_imagem('./Assets/dog.jpg')
+imagem_corrigida = corrigir_brilho(imagem)
+exibir_imagem(imagem_corrigida)
+```
+
